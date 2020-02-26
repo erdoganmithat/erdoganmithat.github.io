@@ -6,7 +6,6 @@
 <script async custom-element="amp-analytics"
 src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
 </script>
-<style amp-custom>
 
    <!--- Basic Page Needs
    ================================================== -->
@@ -21,10 +20,12 @@ src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+   <style amp-custom>
+	   {% include "css/default.css" %}
+	   {% include "css/layout.css" %}
+	   {% include "css/media-queries.css" %}
+	   {% include "css/magnific-popup.css" %}
+	</style>
 	
    <link rel="canonical" href="https://www.erdoganmithat.com/">
 	
